@@ -178,3 +178,41 @@ body {
     gap: 10px;
     margin-top: 15px;
 }
+
+.tool-buttons button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f5f7fb;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tool-buttons button:hover {
+    background-color: #e3f2fd;
+}
+
+.tool-buttons button i {
+    margin-right: 8px;
+    color: #2962ff;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto; 
+   } 
+
+    .main-content {
+        height: calc(100vh - 200px);
+    }
+} 
