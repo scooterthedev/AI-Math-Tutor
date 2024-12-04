@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f7fb;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 280px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #e1e4e8;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topics ul {
+    list-style: none;
+}
+
+.topics li {
+    padding: 12px 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

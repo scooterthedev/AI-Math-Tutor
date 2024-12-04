@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMentor AI - Tutoring Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="topics">
+                <h3>Math Topics</h3>
+                <ul>
+                    <li class="active"><i class="fas fa-calculator"></i> Algebra</li>
+                    <li><i class="fas fa-square-root-alt"></i> Geometry</li>
+                    <li><i class="fas fa-infinity"></i> Calculus</li>
+                    <li><i class="fas fa-chart-line"></i> Statistics</li>
+                </ul>
+            </div>
+            <div class="progress">
+                <h3>Your Progress</h3>
+                <div class="progress-item">
+                    <span>Algebra</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <div class="message ai">
+                        <div class="avatar">AI</div>
+                        <div class="message-content">
+                            <p>Hello! What math problem would you like help with today?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-area">
+                    <button class="tool-btn"><i class="fas fa-camera"></i></button>
+                    <button class="tool-btn"><i class="fas fa-keyboard"></i></button>
+                    <input type="text" placeholder="Type your math question here...">
+                    <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+
+            <div class="tools-panel">
+                <h3>Tools</h3>
+                <div class="tool-buttons">
+                    <button><i class="fas fa-calculator"></i> Calculator</button>
+                    <button><i class="fas fa-pencil-alt"></i> Scratch Pad</button>
+                    <button><i class="fas fa-chart-bar"></i> Graphing</button>
+                    <button><i class="fas fa-history"></i> History</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 
