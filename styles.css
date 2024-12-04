@@ -35,3 +35,49 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.topics li i {
+    margin-right: 10px;
+    color: #2962ff;
+}
+
+.topics li.active {
+    background-color: #e3f2fd;;
+}
+
+.topics li:hover {
+    background-color: #f577fb;
+}
+
+.progress-item {
+    margin-top: 15px;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: #e1e4e8;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #2962ff;
+    border-radius: 4px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chat-container {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+}
